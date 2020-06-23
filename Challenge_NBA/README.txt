@@ -12,5 +12,5 @@ L'encodage du markdown n'arrive pas à afficher les lettres avec accents.
 Pour une version plus propre et complète du travail, se rapporter au rapport.
 
 Nouvelle approche (fichier NBA_Challenge_New.py) :
-Un an plus tard, dans le but d'améliorer les résultats, d'autres modèles
-de prédictions (Arbre de décision, LSTM) ont été appliqués au jeu de données.
+Un an plus tard, dans le but d'améliorer les résultats, un autre modèle
+de prédictions (LSTM) a été appliqué au jeu de données.

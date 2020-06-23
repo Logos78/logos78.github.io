@@ -106,3 +106,13 @@ batch_size = 50
 dataset = create_dataset(df, train_size, 3000, test_size, dt)
 history = train_model(dataset, n_units, n_epochs, batch_size)
 display_results(history)
+
+
+### Conclusion
+# A one-layer network with 32 hidden units achieve the best result with around 72-73% accuracy
+# Unfortunately, the LSTM network doesn't perform better than the previous models based on linear or logistic regressions
+# Since the model is subject to overfitting, the complexity of the network had been reduced from several layers to one..
+# Then dropout layers  were implemented to fix this problem.
+# These two solutions didn't really work.
+# As stated in the report, the main problem is the dataset. Most variables are not related enough to the score.
+# Collecting new variables seems to be the only solution to improve the performance of the model.
